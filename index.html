@@ -10,6 +10,7 @@
     <!-- GOOGLE FONTS LINKS -->
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,11 +56,11 @@
 
     <!-- NAVBAR -->
 
-    <nav id="navbar">
+    <nav class="nav"></nav>
+    <!-- <nav id="navbar">
 
         <div id="logo">
 
-            <!-- <img src="images.jfif" alt="Bhojankaro.com"> -->
 
         </div>
 
@@ -68,70 +69,126 @@
             <li class="item"><a href="#">Services</a></li>
             <li class="item"><a href="#">About Us</a></li>
             <li class="item"><a href="#">Contact Us</a></li>
-            <!-- <li class="item"><a href="#">Blogs</a></li> -->
-
         </ul>
-
-
-
     </nav>
 
     <div id="right">
         <button id="sign">Sign In</button>
-    </div>
+    </div> -->
 
 
 
     <!-- HOME SECTION-1 -->
 
-    <section id="home">
-        <h1 class="h-primary">Welcome to MyWellness.org</h1>
-        <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, veritatis.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> -->
-        <button class="btn">Explore Now</button>
-    </section>
+    <div class="header">
+        <div class="headerTitles">
+            <span class="headerTitleSm">Mental Health</span>
+            <span class="headerTitleLg">Blog</span>
 
+        </div>
+        <img src="./img4.jpg" alt="" class="headerImg">
+        <!-- <div class="headerBtn-container"> -->
+            <button class="headerBtn">Explore Now</button>
 
+        <!-- </div> -->
+    </div>
 
     <!-- FACILITIES -SECTION2 -->
 
-
-    <section id="facilities">
-        <h2 id="facilities-heading">Our Facilities</h2>
-
-        <div class="container">
-            <div class="box">
-                <img class=" facilities-image" src="img2.jpg" alt="Error">
-
-                <h2 class="heading-facilities">Community Sessions</h2>
-                <p class="facility">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestiae
-                    consequuntur, facere
-                    assumenda nisi ex molestias vero esse quae iste perspiciatis ratione Lorem ipsum dolor sit amet.
-                </p>
-                <button class="facilities-button">Learn More</button>
-            </div>
-            <div class="box">
-                <img class=" facilities-image" src="counselling.jpg" alt="Error">
-                <h2 class="heading-facilities">Counselling Sessions</h2>
-                <p class="facility">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestiae
-                    consequuntur, facere
-                    assumenda nisi ex molestias vero esse quae iste perspiciatis ratione Lorem ipsum dolor sit amet.
-                </p>
-                <button class="facilities-button">Learn More</button>
-            </div>
-            <div class="box">
-                <img class=" facilities-image" src="group outing.jpg" alt="Error">
-                <h2 class="heading-facilities">Group Outings</h2>
-                <p class="facility">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestiae
-                    consequuntur, facere
-                    assumenda nisi ex molestias vero esse quae iste perspiciatis ratione Lorem ipsum dolor sit amet.</p>
-                <button class="facilities-button">Learn More</button>
-            </div>
+    <div class="gallery">
+        <div class="image-1 image" data-aos="fade-up">
+            <button class="facility-btn">Read More</button>
+            <span class="tag">Blog-1</span>
         </div>
+        <div class="image-2 image" data-aos="fade-up"
+            data-aos-delay="100">
+            <button class="facility-btn">Read More</button>
+            <span class="tag">Blog-2</span>
+        </div>
+        <div class="image-3 image" data-aos="fade-up"
+            data-aos-delay="150">
+            <button class="facility-btn">Read More</button>
+            <span class="tag">Blog-3</span>
+        </div>
+        <div class="image-4 image" data-aos="fade-up"
+            data-aos-delay="250">
+            <button class="facility-btn">Read More</button>
+            <span class="tag">Blog-4</span>
+        </div>
+    </div>
 
 
-    </section>
 
+    <!-- ABOUT US-->
+    
+                <section class="about">
+                    <section class="top-container">
+                        <header class="showcase">
+                            <h1>About US</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Vitae, sapiente molestiae.
+                                Aperiam itaque dolore magni explicabo alias,
+                                pariatur sunt ratione.
+                            </p>
+                            <a href="" class="btn">Read More</a>
+                        </header>
+                        <div class="top-box top-box-a">
+                            <h4>Lorem, ipsum.
+                            </h4>
+                            <p class="p">Something</p>
+                            <a href="" class="btn">Know More</a>
+                        </div>
+                        <div class="top-box top-box-b">
+                            <h4>Lorem, ipsum.</h4>
+                            <p class="p">Something1</p>
+                            <a href="" class="btn">Know More</a>
+                        </div>
+                    </section>
+
+                    <section class="boxes">
+                        <div class="box">
+                            <!-- <i class="fas fa-chart-pie fa-40x"></i> -->
+                            <h3>Something</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit.
+                                Quo hic quia nihil voluptatum voluptates ut
+                                animi
+                                eligendi facere temporibus ab.</p>
+                        </div>
+                        <div class="box">
+                            <!-- <i class="fas fa-chart-pie fa-40x"></i> -->
+                            <h3>Something</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit.
+                                Quo hic quia nihil voluptatum voluptates ut
+                                animi
+                                eligendi facere temporibus ab.</p>
+                        </div>
+                        <div class="box">
+                            <!-- <i class="fas fa-chart-pie fa-40x"></i> -->
+                            <h3>Something</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit.
+                                Quo hic quia nihil voluptatum voluptates ut
+                                animi
+                                eligendi facere temporibus ab.</p>
+                        </div>
+                        <div class="box">
+                            <!-- <i class="fas fa-chart-pie fa-40x"></i> -->
+                            <h3>Something</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit.
+                                fffffQuo hic quia nihil voluptatum voluptates ut
+                                animi
+                                eligendi facere temporibus ab.</p>
+                        </div>
+
+                    </section>
+
+
+
+                </section>
     <!-- RANDOM SECTION -->
 
 
@@ -161,36 +218,74 @@
     </section>
 
 
-    <section id="section3">
-        <div class="container3">
+    <section class="container-contact">
+        <h2>Get In Touch</h2>
 
-            <div id="row-1">
 
-                <h1 id="row-1-heading">Register Here to Join.</h1>
+        <div class="contact-div">
 
-            </div>
+            <div class="div-upper">
+                <div class="contact-upper">
+                    <div class="c-1">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="c-2">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-            <div id="row-2">
-                <div id="form">
+                    </div>
+                    <div class="c-3">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                    <input class="name" type="text" name="enroller-name" placeholder="Enter your Name">
-
-                    <input class="name" type="email" name="email" placeholder="Enter your e-mail">
-
-                    <input class="name" type="text" name="phonenumber" placeholder="Enter your phone-No">
-                    <input class="name" type="submit" value="submit">
+                    </div>
                 </div>
-
-
             </div>
 
+                  
+        <section class="contact" id="contact">
+            <!-- <div class="title white">
+                <h2>Contact Us</h2>
+               
+            </div> -->
+            <div class="contactForm">
+                <div class="row">
+                    <div class="col50">
+                        <input type="text" name="" placeholder="First Name">
+                    </div>
+                    <div class="col50">
+                        <input type="text" name="" placeholder="Last Name">
+                    </div>
 
+                    </div>
+                    <div class="row">
 
+                        <div class="col50">
+                            <input type="email" name="" placeholder="Email">
+    
+                        </div>
+                        <div class="col50">
+                            <input type="number" name="" placeholder="Mobile No.">
+                        </div>
+                    </div>
 
-        </div>
+                    <div class="row">
+                        <div class="col100">
+                           <textarea placeholder="Message" cols="60" rows="5"></textarea>
+                        </div>  
+                        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col100">
+                           <input type="submit" value="send">
+                        </div>  
+                    </div>
 
-    </section>
-
+                </div>
+            </div>
+        </section>
 
 
 

@@ -75,8 +75,8 @@
 }
 .headerBtn:hover {
   background: transparent;
-  border: 1px solid #444;
-  color: #444;
+  border: 1px solid white;
+  color: rgb(60, 255, 0);
 }
 
 /* GALLERY */
@@ -105,26 +105,27 @@
   cursor: pointer;
 }
 .gallery .image-1 {
-  background: url(https://source.unsplash.com/uDSMTV06s4U);
+
+  background: url(https://source.unsplash.com/fZ2hMpHIrbI);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .gallery .image-2 {
-  background: url(https://source.unsplash.com/nsRBbE6-YLs);
+  background: url(https://source.unsplash.com/lg4fM9Y2pGg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .gallery .image-3 {
-  background: url(https://source.unsplash.com/m1m2EZOZVwA);
+  background: url(https://source.unsplash.com/z1d-LP8sjuI);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .gallery .image-4 {
-  background: url(https://source.unsplash.com/NHqLJrlHvDY);
+  background: url(https://source.unsplash.com/fzqxoFJytiE);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -208,7 +209,7 @@
 .showcase {
   grid-area: showcase;
   min-height: 300px;
-  background: url(img2.jpg);
+  background: url(https://source.unsplash.com/8R-mXppeakM);
 
   position: relative;
   opacity: 0.67;
@@ -228,7 +229,8 @@
 }
 .showcase h1 {
   font-size: 2rem;
-  color: var(--shadow);
+  color: rgb(255, 231, 17);
+  letter-spacing: 1px;
   margin-bottom: 0;
 }
 .showcase p {
@@ -236,7 +238,9 @@
   font-size: 1.1rem;
   font-weight: 700;
   margin-top: 0;
-  color:black;
+  color:white;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 .top-box {
   background: var(--primary);
@@ -272,9 +276,9 @@
 .boxes {
     margin-top: 20px;
     display: grid;
-      margin-left: 20px;
-    margin-right: 20px;
     grid-gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
   .box {
@@ -311,8 +315,7 @@ CONTACT
 .container-contact{
   background-color: black;
   padding: 50px;
-  /* padding-left: 30%; */
-  /* padding-right: 30%; */
+  margin-top: 50px;
   text-align: center;
   line-height: 30px;
   color: white;
@@ -362,7 +365,6 @@ CONTACT
 
 
 form input,form textarea{
-
   border: none;
   border-bottom: 2px solid rgb(230, 227, 227);
   /* border-radius: 20px; */
@@ -370,7 +372,6 @@ form input,form textarea{
   left: 0%;
   height: 100px;
   top: 0%;
-
   font-size: 15px;
   letter-spacing: 1px;
   font-weight: 100;
@@ -378,6 +379,7 @@ form input,form textarea{
 }
 
 .contact{
+  /* margin-top: 0px; */
   background-color: #000;
   display: flex;
   justify-content: center;
@@ -481,3 +483,4 @@ form input,form textarea{
   }
 
 }
+

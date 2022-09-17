@@ -1,0 +1,144 @@
+/* *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 12px;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+} */
+
+.container{
+    position: relative;
+    background: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+    height: 546px;
+    width: 382px;
+    /* height: 500px; */
+    width: 888px;
+    /* display: flex;
+    justify-content: center; */
+    /* right: -79px; */
+    left: 281px;
+    top: 0px;
+
+}
+
+.accordion{
+    position: relative;
+    width: 350px;
+
+    margin-left: 101px;
+
+}
+
+.question{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 14px;
+}
+
+
+.title{
+    margin-top: 108px;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 52px;
+    right: 23px;
+}
+
+.title-question{
+    margin: 1.4rem, 0rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.content-accordion{
+    margin-top: 35px;
+    margin-right: 50px;
+}
+.question-answer{
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+ 
+}
+
+
+.accordion-img{
+    position: relative;
+    width: 220px;
+}
+
+.question-btn{
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+
+}
+
+.up-icon{
+    display: none;
+}
+
+.answer{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    display: none;
+}
+
+.show-text .answer{
+    display: block;
+}
+.show-text .up-icon{
+    display:inline;
+}
+.show-text .down-icon{
+    display:none;
+}
+
+
+@media screen and (min-width:992px) {
+
+    .accordion{
+        width: 920px;
+        height: 0;
+        display: flex;
+    }
+    .accordion-img{
+        position: relative;
+        width: 150px;
+        top: 203px;
+        right: 20px;
+    }
+
+    .question-answer{
+        width: 380px;
+
+    }
+
+    .content-accordion{
+        margin-top:85px;
+    }
+
+    .title{
+        margin-top: 110px;
+        font-size: 3rem;
+        top: 68px;
+        right: -36px;
+    }
+    
+}

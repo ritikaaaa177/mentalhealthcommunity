@@ -39,12 +39,12 @@
 }
 .headerTitleSm {
   position: absolute;
-  top: 18%;
+  top: 0%;
   font-size: 20px;
 }
 .headerTitleLg {
   position: absolute;
-  top: 20%;
+  top: 13px;
   font-size: 100px;
 }
 .headerImg {

@@ -129,7 +129,28 @@ header {
   padding: 5px;
   }
 
+
+
 /* GALLERY */
+
+
+.facility-section-div {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
+}
+.facility-section-div h2 {
+  display: inline;
+  /* text-align: center; */
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: #252525;
+  border-bottom: 5px solid rgb(117, 99, 134);
+  border-radius: 10px;
+}
+
 .gallery {
   margin-top: 6rem;
   display: grid;

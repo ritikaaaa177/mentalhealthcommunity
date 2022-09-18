@@ -249,6 +249,7 @@ body{
 
 #box1{
     width: 600px;
+    background-attachment: fixed;
     
 }
 

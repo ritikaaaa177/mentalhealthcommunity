@@ -1,0 +1,136 @@
+#facilities-heading {
+    position: relative;
+    top: 61px;
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: 'EB Garamond', serif;
+    /* border-bottom: rgb(8, 94, 123) 2px solid; */
+    /* border-radius: 23px; */
+}
+
+
+.container {
+    display: flex;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 90px;
+    justify-content: space-evenly;
+    /* background-color: skyblue; */
+    height:857px;
+}
+
+.box {
+    border: 2px solid black;
+    height: 620px;
+    width: 340px;
+    border-radius: 6px;
+    /* background-color:rgb(232, 224, 213); */
+    box-shadow: 0 10px 20px rgba(173, 173, 173, 0.19), 0 6px 6px rgba(172, 172, 172, 0.23);
+    transform: translateY(0);
+    transition: transform 400ms ease-out, box-shadow 400ms ease-out;
+
+}
+
+
+.box:hover{
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 15px 14px rgba(173, 173, 173, 0.514);
+    border-color: #038cbe;
+    background-color: rgb(213, 227, 248);
+}
+
+
+.facilities-image{
+    width: 336px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.heading-facilities{
+    margin-top: 23px;
+    margin-left: 12px;
+    font-size: 1.6rem;
+    font-family: 'Merriweather', serif;
+}
+
+.facility{
+    font-size: 1.2rem;  
+    margin-top: 26px; 
+    margin-left: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin-right: 12px;
+    text-align: justify;
+}
+.facilities-button{
+    margin-top: 90px;
+    margin-left: 68px;
+    padding: 20px;
+    background-color: rgb(58, 239, 239);
+    width: 210px;
+    border-radius: 23px;
+    font-size: 1rem;
+
+}
+
+.facilities-button:hover{
+    background-color: orange;
+}
+
+/* Starting section */
+
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    /* border: 2px solid red; */
+    margin-top: 0px;
+}
+
+#box2{
+    margin-right: -90px;
+}
+
+#box1{
+    width: 600px;
+    
+}
+
+#starting-heading{
+    text-align: center;
+    font-size: 3.4rem;
+    margin-top: 20px;
+    font-family: 'EB Garamond', serif;
+
+}
+
+#starting-para{
+    margin-top: 33px;
+    font-size: 1.5rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: justify;
+}
+#counselling{
+    display: block;
+    margin: auto;
+    padding: 12px;
+    width: 200px;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    background-color: #038cbe;
+    border-radius: 23px;
+
+}
+
+#images{
+     border-radius: 18px;
+     width: 600px;
+     margin-top: 17px;
+}

@@ -44,7 +44,7 @@
     position: relative;
     width: 615px;
     height: 400px;
-    background: #ffc954;
+    background: rgb(0 245 252);
     border-radius: 35px;
     display: flex;
     flex-direction: column;

@@ -138,6 +138,11 @@ body{
 
 /* FACILITIES */
 
+.facilities{
+    position: relative;
+    top: -35px;
+}
+
 #facilities-heading {
     position: relative;
     top: 61px;
@@ -146,10 +151,11 @@ body{
     font-family: 'EB Garamond', serif;
     /* border-bottom: rgb(8, 94, 123) 2px solid; */
     /* border-radius: 23px; */
+   
 }
 
 
-.container {
+.containerrrrr {
     display: flex;
     /* border: 2px solid red; */
     position: relative;
@@ -159,7 +165,7 @@ body{
     height:857px;
 }
 
-.box {
+.boxer1 {
     border: 2px solid black;
     height: 620px;
     width: 340px;
@@ -172,7 +178,7 @@ body{
 }
 
 
-.box:hover{
+.boxer1:hover{
     transform: scale(1.05);
     z-index: 10;
     box-shadow: 0 15px 14px rgba(173, 173, 173, 0.514);
@@ -187,14 +193,14 @@ body{
     display: block;
     margin: auto;
     position: relative;
-    /* top: 20px; */
-    /* border-radius: 23px; */
-    /* top: 0;
-    left: 0; */
+    top: 20px; 
+    border-radius: 23px;
+    top: 0px;
+    left: 0px
 }
 
 .heading-facilities{
-    margin-top: 23px;
+    margin-top: 10px;
     margin-left: 12px;
     font-size: 1.6rem;
     font-family: 'Merriweather', serif;
@@ -202,20 +208,21 @@ body{
 
 .facility{
     font-size: 1.2rem;  
-    margin-top: 26px; 
+    margin-top: 18px;
     margin-left: 10px;
     font-family: 'Hind Siliguri', sans-serif;
     margin-right: 12px;
     text-align: justify;
 }
 .facilities-button{
-    margin-top: 30px;
-    margin-left: 57px;
+  
     padding: 20px;
     background-color: rgb(58, 239, 239);
     width: 210px;
     border-radius: 23px;
     font-size: 1rem;
+    margin-top: 12px;
+    margin-left: 62px;
 
 }
 
@@ -250,14 +257,28 @@ body{
     font-size: 3.4rem;
     margin-top: 20px;
     font-family: 'EB Garamond', serif;
+    position: relative;
+    left: -12px;
 
 }
 
 #starting-para{
-    margin-top: 33px;
+    /* margin-top: 33px;
     font-size: 1.5rem;
     font-family: 'Hind Siliguri', sans-serif;
     text-align: justify;
+    position: relative;
+    top: 79px;
+    left: -89px; */
+
+    font-size: 1.2rem;
+    margin-top: 26px;
+    /* margin-left: 10px; */
+    font-family: 'Hind Siliguri', sans-serif;
+    margin-right: 12px;
+    text-align: justify;
+
+
 }
 #counselling{
     display: block;
@@ -268,6 +289,9 @@ body{
     font-size: 1.4rem;
     background-color: #038cbe;
     border-radius: 23px;
+    top: -81px;
+    left: -33px;
+    position: relative;
 
 }
 

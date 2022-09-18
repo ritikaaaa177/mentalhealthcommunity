@@ -39,12 +39,12 @@
 }
 .headerTitleSm {
   position: absolute;
-  top: 18%;
+  top: 0%;
   font-size: 20px;
 }
 .headerTitleLg {
   position: absolute;
-  top: 20%;
+  top: 13px;
   font-size: 100px;
 }
 .headerImg {
@@ -129,7 +129,28 @@ header {
   padding: 5px;
   }
 
+
+
 /* GALLERY */
+
+
+.facility-section-div {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
+}
+.facility-section-div h2 {
+  display: inline;
+  /* text-align: center; */
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: #252525;
+  border-bottom: 5px solid rgb(117, 99, 134);
+  border-radius: 10px;
+}
+
 .gallery {
   margin-top: 6rem;
   display: grid;
@@ -156,7 +177,7 @@ header {
 }
 .gallery .image-1 {
 
-  background: url(https://source.unsplash.com/fZ2hMpHIrbI);
+   background: url(https://source.unsplash.com/8tf3e8LaSX0);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

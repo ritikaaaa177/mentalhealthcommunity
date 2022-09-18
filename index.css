@@ -305,6 +305,7 @@ header {
   box-shadow: var(--shadow);
   padding: 1rem;
   background-image: url('img5.jpg');
+  /* background-repeat: no-repeat; */
 }
 
 

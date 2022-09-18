@@ -522,7 +522,8 @@ form input,form textarea{
   font-size: 500;
   letter-spacing: 2px;
   cursor: pointer;
-  max-width: 150px;
+  max-width: 267px;
+  height: 85px;
 
 }
 .div-upper

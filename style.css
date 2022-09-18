@@ -299,7 +299,37 @@ body{
      border-radius: 18px;
      width: 600px;
      margin-top: 17px;
+     -webkit-transition: .2s ease-in-out;
+     transition: .2s ease-in-out;
 }
+
+#images:hover{
+    width: 550px;
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
 
 
 /* SECTION 3 -  */
